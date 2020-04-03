@@ -36,9 +36,11 @@ struct PreferencesView: View {
             EffectEntry(name: "Shock wave (red)", value: .shockwaveRed),
             EffectEntry(name: "Shock wave (green)", value: .shockwaveGreen),
             EffectEntry(name: "Shock wave (blue)", value: .shockwaveBlue),
+            EffectEntry(name: "Shock wave (white)", value: .shockwaveWhite),
             EffectEntry(name: "Neon (red)", value: .neonRed),
             EffectEntry(name: "Neon (green)", value: .neonGreen),
             EffectEntry(name: "Neon (blue)", value: .neonBlue),
+            EffectEntry(name: "Neon (white)", value: .neonWhite),
         ]
 
         var body: some View {
